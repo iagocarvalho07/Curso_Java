@@ -1,0 +1,8 @@
+package fundamentos;
+
+public class TpoString {
+	public static void main(String[] args) {
+		System.out.println("ola pessoal".charAt(2));
+	}
+
+}

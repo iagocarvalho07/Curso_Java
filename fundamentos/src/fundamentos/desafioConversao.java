@@ -1,0 +1,16 @@
+package fundamentos;
+
+import java.util.Scanner;
+
+public class desafioConversao {
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+		System.err.println("Informe O Primeiro Salario");
+		double salario1 = Double.parseDouble((entrada.nextLine()).replaceAll(",", "."));
+		System.err.println("Informe O segundo salario");
+		double salario2 = Double.parseDouble((entrada.nextLine()).replaceAll(",", "."));
+		Double media = ((salario1 + salario2) / 2);
+		System.out.println(" A Media Dos Salarios è :" + media);
+		entrada.close();
+	}
+}

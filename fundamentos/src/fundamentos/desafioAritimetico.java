@@ -1,0 +1,61 @@
+package fundamentos;
+
+public class desafioAritimetico {
+	public static void main(String[] args) {
+//		int a = 2 + 3 * 4;
+//		System.out.println(a);
+//		int b = (int)Math.pow(a, 3);
+//		System.out.println(b);
+	
+	
+	/**
+	 * DeSafio 
+	 * 
+	 *   coloque a formula a seguir em condigo 
+	 * 
+	 * 	   
+							2                  2  3
+					[6*(3+2)] - ((1-5) * (2-7)) /2]
+						3*2             
+								10^2
+	 * 
+	 * 
+	 * */
+	int a = 6;
+	int b = 3;
+	int c = 2;
+	int d =1;
+	int e = 5;
+	int f = 7;
+	int g = 10;
+	
+	 
+	
+	/*[6*(3+2)]  = */ 
+	int primeiroresltado = (int) Math.pow((a*(b+c)),c);
+	/*3*2  = */ 
+	int segundoresultado = b*c;
+	
+	/*   				     2 
+					[6*(3+2)]
+						3*2      = */
+	int primeiroDivididoPeloSegundo = primeiroresltado/segundoresultado;
+	/*
+	 *               	  2   
+	 * (((1-5) * (2-7))/2)  */   
+	int TerceiroResultado = (int) Math.pow(((d-e) * (c-f)/2), c) ;
+	 
+	/* 							2                  2  3
+					[6*(3+2)] - ((1-5) * (2-7)) /2]
+						3*2  */
+	int resultadoFinalParteSuperior = (int) Math.pow((primeiroDivididoPeloSegundo - TerceiroResultado), b) ;
+	int ultimaMath = (int) Math.pow(g, b);
+	
+	
+	
+	int resultadoFinal = resultadoFinalParteSuperior / ultimaMath ;
+	System.out.println(resultadoFinal);
+	 //
+	
+	}
+}

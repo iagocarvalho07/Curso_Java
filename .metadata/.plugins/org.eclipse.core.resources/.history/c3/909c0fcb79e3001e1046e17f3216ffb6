@@ -1,0 +1,16 @@
+package fundamentos;
+
+import java.util.Scanner;
+
+public class desafioConversao {
+	public static void main(String[] args) {
+		Scanner entrada = new Scanner(System.in);
+		System.err.println("Informe O Primeiro Salario");
+		String salario1 = entrada.nextLine();
+		
+		
+		entrada.close();
+		
+	}
+
+}

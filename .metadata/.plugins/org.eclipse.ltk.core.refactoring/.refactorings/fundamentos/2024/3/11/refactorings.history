@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;fundamentos.Atribuição&apos; to &apos;Atribuicao&apos;&#x0D;&#x0A;- Original project: &apos;fundamentos&apos;&#x0D;&#x0A;- Original element: &apos;fundamentos.Atribuição&apos;&#x0D;&#x0A;- Renamed element: &apos;fundamentos.Atribuicao&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Atribuição&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;fundamentos{Atribuição.java[Atribuição" matchStrategy="1" name="Atribuicao" qualified="false" references="true" similarDeclarations="false" stamp="1710586710286" textual="false" version="1.0"/>
+</session>

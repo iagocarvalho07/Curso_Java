@@ -1,0 +1,13 @@
+package aulaClasses;
+
+public class ProdutoTeste {
+	public static void main(String[] args) {
+		Produto p1 = new Produto();
+		
+		p1.nome = "Nootbook";
+		p1.preco = 43365;
+		var p2 = new Produto();
+		
+	}
+
+}
